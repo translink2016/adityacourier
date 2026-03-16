@@ -2,7 +2,6 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import Head from 'next/head'
 
 export default function CourierToUSAFromMumbai() {
   const [activeTab, setActiveTab] = useState(0)
@@ -159,8 +158,7 @@ export default function CourierToUSAFromMumbai() {
   ]
 
   return (
-    <>
-      <main className="bg-white">
+    <main className="bg-white">
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-primary to-purple-700 text-white py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -541,6 +539,6 @@ export default function CourierToUSAFromMumbai() {
           </div>
         </section>
       </main>
-    </>
-  )
-}
+    )
+  }
+
