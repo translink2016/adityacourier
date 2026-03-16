@@ -1,13 +1,8 @@
-import type { Config } from 'next'
-
-const config: Config = {
-  metadata: {
-    title: 'Aditya Courier Service - International Express Delivery',
-    description: 'Fast, reliable international courier service providing global shipping solutions',
-  },
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   typescript: {
     tsconfigPath: './tsconfig.json',
   },
 }
 
-export default config
+module.exports = nextConfig
