@@ -80,8 +80,6 @@ export default function Home() {
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} suppressHydrationWarning />
-
       <HeroSection />
 
       {/* Section 1: Features/Benefits */}
