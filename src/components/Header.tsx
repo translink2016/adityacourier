@@ -51,6 +51,7 @@ export default function Header() {
             <Link href="/" className="hover:text-secondary transition">Home</Link>
             <Link href="/about" className="hover:text-secondary transition">About</Link>
             <Link href="/services" className="hover:text-secondary transition">Services</Link>
+            <Link href="/international" className="hover:text-secondary transition">International</Link>
             <Link href="/track" className="hover:text-secondary transition">Track</Link>
             <Link href="/contact" className="hover:text-secondary transition">Contact</Link>
           </nav>
