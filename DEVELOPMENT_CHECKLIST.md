@@ -49,7 +49,7 @@
 
 ## Design & Styling ✅
 
-- [x] Blue (#003DA5) and Yellow (#FDB914) color scheme
+- [x] Purple (#9370DB) and Yellow (#FDB914) color scheme
 - [x] Tailwind CSS configuration
 - [x] Responsive design
 - [x] Professional layout

@@ -92,7 +92,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: 'Fast Delivery', desc: 'Express delivery to 220+ countries in 2-10 business days', icon: '🚚', color: 'bg-blue-100' },
+              { title: 'Fast Delivery', desc: 'Express delivery to 220+ countries in 2-10 business days', icon: '🚚', color: 'bg-purple-100' },
               { title: 'Real-time Tracking', desc: '24/7 package tracking with live GPS updates', icon: '📍', color: 'bg-yellow-100' },
               { title: 'Secure Handling', desc: 'Insurance coverage up to declared value included', icon: '🔒', color: 'bg-green-100' },
               { title: 'Competitive Rates', desc: 'Best prices without compromising on service quality', icon: '💰', color: 'bg-purple-100' },
@@ -125,10 +125,10 @@ export default function Home() {
               { step: 4, title: 'Delivery', desc: 'Receive your package at the doorstep safely' },
             ].map((item, i) => (
               <div key={i} className="relative">
-                <div className="bg-gradient-to-br from-primary to-blue-700 text-white rounded-xl p-8 text-center h-full">
+                <div className="bg-gradient-to-br from-primary to-purple-700 text-white rounded-xl p-8 text-center h-full">
                   <div className="text-5xl font-bold mb-4 opacity-20">{item.step}</div>
                   <h3 className="text-2xl font-bold mb-3 text-secondary">{item.title}</h3>
-                  <p className="text-blue-100">{item.desc}</p>
+                  <p className="text-purple-100">{item.desc}</p>
                 </div>
                 {i < 3 && <div className="hidden md:block absolute top-1/2 -right-3 text-4xl text-primary">→</div>}
               </div>
@@ -174,7 +174,7 @@ export default function Home() {
       </section>
 
       {/* Section 4: Trust & Credentials */}
-      <section className="py-20 bg-gradient-to-r from-primary to-blue-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-primary to-purple-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-5xl font-bold text-center mb-16">Trusted by Thousands</h2>
 
@@ -187,13 +187,13 @@ export default function Home() {
             ].map((stat, i) => (
               <div key={i}>
                 <div className="text-5xl font-bold text-secondary mb-2">{stat.number}</div>
-                <p className="text-xl text-blue-100">{stat.label}</p>
+                <p className="text-xl text-purple-100">{stat.label}</p>
               </div>
             ))}
           </div>
 
           <div className="mt-16 text-center">
-            <p className="text-lg text-blue-100 mb-8">Certified and trusted by industry leaders</p>
+            <p className="text-lg text-purple-100 mb-8">Certified and trusted by industry leaders</p>
             <div className="flex justify-center gap-8 flex-wrap">
               {['✓ ISO 9001 Certified', '✓ IATA Compliant', '✓ Money-Back Guarantee', '✓ 24/7 Support'].map((badge, i) => (
                 <div key={i} className="bg-white text-primary px-6 py-3 rounded-lg font-bold">
@@ -225,7 +225,7 @@ export default function Home() {
                 <p className="text-gray-600 mb-6">Delivery: {plan.speed}</p>
                 <Link
                   href="/contact"
-                  className="inline-block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-900 transition"
+                  className="inline-block w-full text-center bg-primary text-white px-6 py-3 rounded-lg font-bold hover:bg-purple-900 transition"
                 >
                   Get Quote
                 </Link>
@@ -309,7 +309,7 @@ export default function Home() {
 
           <div className="mt-12 text-center bg-primary text-white rounded-xl p-8">
             <h3 className="text-2xl font-bold mb-4">Still have questions?</h3>
-            <p className="text-blue-100 mb-6">Our customer support team is available 24/7 to help you.</p>
+            <p className="text-purple-100 mb-6">Our customer support team is available 24/7 to help you.</p>
             <Link href="/contact" className="inline-block bg-secondary text-primary px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition">
               Contact Us Now
             </Link>
@@ -318,10 +318,10 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gradient-to-r from-primary to-blue-700 text-white py-20">
+      <section className="bg-gradient-to-r from-primary to-purple-700 text-white py-20">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-5xl font-bold mb-4">Ready to Ship Your Package?</h2>
-          <p className="text-xl mb-8 text-blue-100">Get started with competitive rates and professional service. Fast, secure, and reliable delivery to 220+ countries.</p>
+          <p className="text-xl mb-8 text-purple-100">Get started with competitive rates and professional service. Fast, secure, and reliable delivery to 220+ countries.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact" className="inline-block bg-secondary text-primary px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition">
               Get a Free Quote

@@ -22,11 +22,11 @@ html {
 
 /* Custom Styles */
 .bg-primary {
-  background-color: #003DA5;
+  background-color: #9370DB;
 }
 
 .text-primary {
-  color: #003DA5;
+  color: #9370DB;
 }
 
 .bg-secondary {
@@ -42,7 +42,7 @@ html {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #003DA5, #FDB914);
+  background: linear-gradient(135deg, #9370DB, #FDB914);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

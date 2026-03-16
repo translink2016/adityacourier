@@ -184,7 +184,7 @@ OR [SETUP_GUIDE.md](SETUP_GUIDE.md) - Testing the API section
 
 ### Color Scheme
 ```
-Primary Blue:     #003DA5
+Primary Purple:   #9370DB
 Secondary Yellow: #FDB914
 Light Background: #f5f5f5
 Dark Text:        #1a1a1a

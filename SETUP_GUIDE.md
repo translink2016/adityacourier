@@ -159,7 +159,7 @@ curl -X POST http://localhost:5000/api/quote \
 
 The website uses a professional blue and yellow color scheme:
 
-- **Primary Blue**: `#003DA5` (rgb(0, 61, 165))
+- **Primary Purple**: `#9370DB` (rgb(147, 112, 219))
 - **Secondary Yellow**: `#FDB914` (rgb(253, 185, 20))
 - **Light Background**: `#f5f5f5`
 - **Dark Text**: `#1a1a1a`

@@ -8,7 +8,7 @@ A modern, SEO-friendly international courier service website built with Next.js 
 - **5 Pages**: Home, About, Services, Track Shipment, Contact
 - **SEO Optimized**: Meta tags, JSON-LD structured data, sitemaps, robots.txt
 - **Responsive Design**: Mobile-first design with Tailwind CSS
-- **Color Scheme**: Professional blue (#003DA5) and yellow (#FDB914)
+- **Color Scheme**: Professional purple (#9370DB) and yellow (#FDB914)
 - **Performance**: Server-side rendering for optimal SEO
 
 ### Backend (Node.js + Express)
@@ -131,7 +131,7 @@ npm start
 
 ## Color Scheme
 
-- **Primary Blue**: `#003DA5`
+- **Primary Purple**: `#9370DB`
 - **Secondary Yellow**: `#FDB914`
 - **Light Background**: `#f5f5f5`
 - **Dark Text**: `#1a1a1a`

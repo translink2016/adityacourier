@@ -14,7 +14,7 @@ export default function NotFound() {
         <p className="text-gray-600 mb-8">The page you&apos;re looking for doesn&apos;t exist or has been moved.</p>
         <a
           href="/"
-          className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-900 transition"
+          className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-bold hover:bg-purple-900 transition"
         >
           Return Home
         </a>

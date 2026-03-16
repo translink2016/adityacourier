@@ -21,16 +21,16 @@ export default function Header() {
               
               {/* Truck Cabin */}
               <rect x="60" y="35" width="15" height="20" fill="#FDB914" rx="2" />
-              <polygon points="75,35 75,45 85,50 85,40" fill="#003DA5" />
+              <polygon points="75,35 75,45 85,50 85,40" fill="#9370DB" />
               
               {/* Wheels */}
-              <circle cx="30" cy="80" r="8" fill="#003DA5" />
-              <circle cx="70" cy="80" r="8" fill="#003DA5" />
+              <circle cx="30" cy="80" r="8" fill="#9370DB" />
+              <circle cx="70" cy="80" r="8" fill="#9370DB" />
               <circle cx="28" cy="80" r="4" fill="#FDB914" />
               <circle cx="68" cy="80" r="4" fill="#FDB914" />
               
               {/* Package on truck */}
-              <rect x="22" y="55" width="12" height="12" fill="#003DA5" rx="1" />
+              <rect x="22" y="55" width="12" height="12" fill="#9370DB" rx="1" />
               <line x1="22" y1="61" x2="34" y2="61" stroke="#FDB914" strokeWidth="1" />
               
               {/* Shipping lines (motion) */}

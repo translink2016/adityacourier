@@ -51,7 +51,7 @@ export default function Track() {
                 </div>
               </div>
 
-              <button type="submit" className="w-full bg-primary text-white py-3 rounded-lg font-bold text-lg hover:bg-blue-900 transition">
+              <button type="submit" className="w-full bg-primary text-white py-3 rounded-lg font-bold text-lg hover:bg-purple-900 transition">
                 Track Now
               </button>
             </form>

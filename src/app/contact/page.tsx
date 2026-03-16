@@ -70,7 +70,7 @@ export default function Contact() {
                   ></textarea>
                 </div>
 
-                <button type="submit" className="w-full bg-primary text-white py-3 rounded-lg font-bold text-lg hover:bg-blue-900 transition">
+                <button type="submit" className="w-full bg-primary text-white py-3 rounded-lg font-bold text-lg hover:bg-purple-900 transition">
                   Send Message
                 </button>
               </form>
@@ -133,7 +133,7 @@ export default function Contact() {
                   { number: '220+', label: 'Countries Served' },
                   { number: '10M+', label: 'Packages Delivered' },
                 ].map((stat, i) => (
-                  <div key={i} className="bg-gradient-to-br from-primary to-blue-900 text-white rounded-lg p-4 text-center">
+                  <div key={i} className="bg-gradient-to-br from-primary to-purple-900 text-white rounded-lg p-4 text-center">
                     <p className="text-3xl font-bold mb-1">{stat.number}</p>
                     <p className="text-sm">{stat.label}</p>
                   </div>

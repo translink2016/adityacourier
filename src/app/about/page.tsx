@@ -31,7 +31,7 @@ export default function About() {
                 We are committed to delivering packages safely and on time, every time.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary to-blue-900 rounded-xl p-8 text-white">
+            <div className="bg-gradient-to-br from-primary to-purple-900 rounded-xl p-8 text-white">
               <h2 className="text-3xl font-bold mb-4">Our Vision</h2>
               <p className="leading-relaxed mb-4">
                 To be the most trusted and innovative courier service provider in the world.

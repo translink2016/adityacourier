@@ -95,7 +95,7 @@ export default function Services() {
                 <p className="text-4xl font-bold mb-2">{plan.price}</p>
                 <p className="text-sm mb-6">per package</p>
                 <p className="font-semibold mb-6">Delivery: {plan.time}</p>
-                <button className={`w-full py-2 rounded-lg font-bold transition ${plan.featured ? 'bg-secondary text-primary hover:bg-yellow-400' : 'bg-primary text-white hover:bg-blue-900'}`}>
+                <button className={`w-full py-2 rounded-lg font-bold transition ${plan.featured ? 'bg-secondary text-primary hover:bg-yellow-400' : 'bg-primary text-white hover:bg-purple-900'}`}>
                   Choose Plan
                 </button>
               </div>
@@ -131,7 +131,7 @@ export default function Services() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-primary mb-4">Ready to Ship?</h2>
           <p className="text-gray-700 mb-8 text-lg">Contact our team to get a personalized quote</p>
-          <Link href="/contact" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-900 transition">
+          <Link href="/contact" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-bold hover:bg-purple-900 transition">
             Contact Us Now
           </Link>
         </div>

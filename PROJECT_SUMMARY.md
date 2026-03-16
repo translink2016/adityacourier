@@ -90,7 +90,7 @@ quick-start.bat                ✅ Windows installer
 ## 🎨 Design & Branding
 
 ### Color Scheme
-- **Primary Blue**: #003DA5 (Professional, Trustworthy)
+- **Primary Purple**: #9370DB (Professional, Trustworthy)
 - **Secondary Yellow**: #FDB914 (Energy, Attention)
 - **Light Gray**: #f5f5f5 (Background)
 - **Dark Gray**: #1a1a1a (Text)
