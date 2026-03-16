@@ -1,0 +1,13 @@
+{
+  "name": "aditya-courier-api",
+  "version": "1.0.0",
+  "description": "Node.js API server for Aditya Courier Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["courier", "api", "shipping"],
+  "author": "Aditya Courier",
+  "license": "ISC"
+}

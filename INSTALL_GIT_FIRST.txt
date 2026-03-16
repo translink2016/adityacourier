@@ -1,0 +1,137 @@
+═══════════════════════════════════════════════════════════════════════════════
+                        ⚠️  GIT NOT INSTALLED
+═══════════════════════════════════════════════════════════════════════════════
+
+We tried to run the push script, but Git is not installed on your system.
+
+NO PROBLEM! Follow these 3 simple steps to install Git and complete the push.
+
+═══════════════════════════════════════════════════════════════════════════════
+                    🚀 STEP 1: DOWNLOAD & INSTALL GIT
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Go to: https://git-scm.com/download/win
+
+2. Click the download button (Windows 64-bit)
+   File will be named: Git-2.x.x-64-bit.exe
+
+3. Run the installer:
+   - Double-click the .exe file
+   - Click "Next" to accept defaults
+   - Click "Install" to complete
+
+4. When installation finishes:
+   - Close the installer
+   - IMPORTANT: Close all PowerShell and Command Prompt windows
+
+═══════════════════════════════════════════════════════════════════════════════
+                    🔄 STEP 2: REOPEN TERMINAL & RUN PUSH
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Open a fresh PowerShell or Command Prompt window
+
+2. Run this command:
+   
+   cd "c:\Users\ADMIN\Desktop\Aditya Courier Service"
+
+3. Run the push script:
+
+   .\push-to-github.bat
+
+4. Watch for the success message!
+   The push will take 2-3 minutes.
+
+═══════════════════════════════════════════════════════════════════════════════
+                    ✅ STEP 3: VERIFY ON GITHUB
+═══════════════════════════════════════════════════════════════════════════════
+
+After the push completes successfully:
+
+1. Open your browser
+2. Go to: https://github.com/translink2016/adityacourier
+3. You should see all your project files there!
+4. Your repository is now live 🎉
+
+═══════════════════════════════════════════════════════════════════════════════
+                    🔐 FINAL: REVOKE YOUR TOKEN
+═══════════════════════════════════════════════════════════════════════════════
+
+After push succeeds, for security:
+
+1. Go to: https://github.com/settings/tokens
+2. Find your Personal Access Token
+3. Click "Delete"
+
+This prevents anyone from using the token if they find it.
+
+═══════════════════════════════════════════════════════════════════════════════
+                    ⏱️  TOTAL TIME NEEDED
+═══════════════════════════════════════════════════════════════════════════════
+
+Step 1 (Install Git):  5-10 minutes (mostly waiting for download)
+Step 2 (Run Push):     3-5 minutes
+Step 3 (Verify):       1 minute
+Step 4 (Revoke Token): 1 minute
+
+TOTAL: 10-20 minutes
+
+═══════════════════════════════════════════════════════════════════════════════
+                    ❓ NEED HELP?
+═══════════════════════════════════════════════════════════════════════════════
+
+If something doesn't work:
+
+PROBLEM: Git download is slow
+SOLUTION: Be patient, download will complete. You can also download from:
+          https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.1/Git-2.42.0-64-bit.exe
+
+PROBLEM: Installation seems stuck
+SOLUTION: Wait 2-3 minutes. Sometimes it takes a while to extract.
+
+PROBLEM: Script still says "git not found" after installing
+SOLUTION: You MUST close ALL PowerShell/Command Prompt windows completely
+          Then open a fresh one. The old windows still have the old PATH.
+
+PROBLEM: "Permission denied" error when running .bat
+SOLUTION: Right-click push-to-github.bat → "Run as administrator"
+
+═══════════════════════════════════════════════════════════════════════════════
+                    📋 QUICK CHECKLIST
+═══════════════════════════════════════════════════════════════════════════════
+
+Before running the push script, verify:
+
+☐ Git is installed (can run "git --version" in terminal)
+☐ All PowerShell/CMD windows are CLOSED
+☐ You opened a FRESH PowerShell/CMD window
+☐ You're in the correct folder: c:\Users\ADMIN\Desktop\Aditya Courier Service
+☐ You have internet connection
+☐ GitHub repository exists: https://github.com/translink2016/adityacourier
+
+═══════════════════════════════════════════════════════════════════════════════
+                    🎯 COMMAND SUMMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+INSTALL GIT:
+  1. Download: https://git-scm.com/download/win
+  2. Run the installer
+  3. Close all terminals
+
+RUN PUSH:
+  1. Open fresh PowerShell
+  2. cd "c:\Users\ADMIN\Desktop\Aditya Courier Service"
+  3. .\push-to-github.bat
+
+VERIFY:
+  1. Go to: https://github.com/translink2016/adityacourier
+  2. Confirm all files are there
+
+REVOKE TOKEN:
+  1. Go to: https://github.com/settings/tokens
+  2. Delete your Personal Access Token
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Ready? Start with Step 1!
+
+═══════════════════════════════════════════════════════════════════════════════
